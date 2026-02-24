@@ -1,0 +1,86 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ 
+}
+h4 {
+    font-size: 20px;
+    color: rgb(58, 84, 6);
+    margin-top: 0px;
+}
+a{
+height: 25px;
+font-size: 20px;
+color: rgb(63, 100, 7);
+text-decoration: none;
+border: transparent;
+padding-left: 60px;
+
+}
+span{
+    background-color:antiquewhite
+}
+a:hover{
+    border-bottom: 2px solid rgb(202, 147, 45);
+}
+button{
+    background-color: rgb(9, 77, 9);
+    color: white;
+   border-radius: 5px;
+   padding: 10px 20px;
+   
+  
+}
+h1{
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(62, 99, 6);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   
+}
+ .text p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(9, 72, 9);
+
+}
+.text button{
+    padding: 10px 30px;
+    margin-left: 750px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+img{
+    width: 100%;
+}
+.inform{
+display: flex;
+justify-content: space-between;
+}
+b{
+    font-size: 30px;
+}
+h2{
+  font-size: 40px; 
+  text-align: center; 
+}
+.life img{
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-right: 80px;
+   
+}
+.life p{
+    margin-left: 300px;
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
