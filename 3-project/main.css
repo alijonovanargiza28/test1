@@ -1,0 +1,44 @@
+section{
+    width: 33%;
+    padding-left: 25px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+h1{
+    display: inline-block;
+    position: absolute;
+    font-size: 35px;
+    
+}
+select{
+    margin-top: 25px;
+    margin-left: 260px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+p{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    
+  
+}
+span{
+    padding-left: 300px;
+}
+input{
+    width: 40%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+   
+}
+.main button{
+padding: 15px 20px;
+background-color: rgb(106, 106, 219);
+color: white;
+border-radius: 10px;
+}
