@@ -1,0 +1,201 @@
+*{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+  
+
+}
+header{
+    
+    width: 100%;
+ z-index:9;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  
+}
+.link h1{
+    font-size: 30px;
+}
+header a{
+   padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+.icon i{
+    padding-left: 30px;
+}
+header a:hover{
+    color:red;
+    /* background-color: black; */
+    font-size: 30px;
+    transition: 1s;
+}
+.navbar{
+    margin-top: 10px;
+    padding: 100px 0px 0px 100px;
+    position: relative;
+    background-image: url(https://i.pinimg.com/736x/84/ca/01/84ca018dd2724ed285a71c6e77462532.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: contain;
+}
+.navbar p{
+    color: red;
+    font-size: 25px;
+}
+.navbar h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+    
+}
+.navbar button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: white;
+}
+.navbar img{
+    position: absolute;
+    float: right;
+}
+.catolc h1{
+color: #111;
+font-size: 38px;
+text-align: center;
+}
+.catolc span{
+    color: red;
+    text-decoration: overline;
+    font-size: 50px;
+}
+.product{
+    position: relative;
+    justify-content: space-around;
+
+}
+.productText{
+    align-items: flex-end;
+}
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.container .box{
+
+width:30%;
+box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+margin: 1px 5px;
+border:1px solid rgba(0,0,0,.1);
+position: relative;
+
+
+}
+.container .box .discount{
+    position: absolute;
+    top:80px;
+    left:100px;
+    font-size: 20px;
+    color:white;
+    padding: 2px 10px;
+    background-color: rgb(156, 220, 61);
+   
+    z-index: 1;
+    border-radius: 5px;
+}
+.container .image img{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 80px;
+   
+    height: 600px;
+}
+.box:hover .image img{
+transform: scale(1.1);
+transition: 2s;
+}
+.container .icons{
+position: absolute;
+bottom: 0; left: 0; right: 0;
+display: flex;
+}
+.container .icons i{
+    height:60px ;
+    line-height: 60px;
+    font-size: 15px;
+    width: 50%;
+    letter-spacing: 1px;
+background-color: yellowgreen
+}
+.container .icons i:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    font-size: 15px;
+}
+.container .content {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.content .price{
+    font-size: 20px;
+}
+.price span{
+    text-decoration: line-through;
+    padding-left: 20px;
+    color: red;
+}
+.review img{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+}
+span{
+    font-size: 40px;
+    color: red;
+
+}
+h1{
+   text-align: center;
+  
+}
+.review{
+   margin-top: 50px;
+    display: flex;
+   margin-left: 100px;
+   padding-left: 50px;
+}
+.review p{
+    margin-left: 50px;
+    margin-right: 80px;
+    color: #999;
+}
+.text img{
+height: 700px;
+
+}
+.text{
+    position: absolute;
+   left: 200px;
+}
+.text2{
+    position: relative;
+    left:900px;
+    top: 10px;
+    
+}
+.text2 img{
+height: 700px;
+}
